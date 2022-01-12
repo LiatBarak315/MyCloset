@@ -1,0 +1,32 @@
+.add-new-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-new-container label {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.add-new-container input {
+  border: 0;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+}
+
+.add-new-container label {
+  font-size: 2rem;
+}
+
+.add-new-container button {
+  width: fit-content;
+  padding: 5px 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 2rem;
+  border-radius: 5px;
+}
